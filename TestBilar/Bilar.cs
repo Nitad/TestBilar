@@ -5,7 +5,7 @@ public class Bilar
 {
     string Name { get; set; }
     int Wheels {get; set;}
-    int Horsepower { get;' set; }
+    int Horsepower { get; set; }
     bool Broken { get; set; }
 
     public Bilar(string name, int wheels, int horsepower)
@@ -26,7 +26,7 @@ public class Bilar
         return Horsepower;
     }
 
-    public void burnOut(bool Broken)
+    public void burnOut()
     {
         if (!Broken)
         {

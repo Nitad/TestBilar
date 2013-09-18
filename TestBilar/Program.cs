@@ -13,7 +13,7 @@ namespace TestBilar
             Console.WriteLine(BMW.CountHorsepower());
             Console.ReadLine();
 
-            ConsoleKeyInfo KeyInfõ;
+            ConsoleKeyInfo KeyInfo;
             do
             {
                 Console.Clear();
@@ -21,7 +21,7 @@ namespace TestBilar
                 KeyInfo = Console.ReadKey();
                 saab.burnOut();
                 Console.ReadLine();
-            } while (KeyInfo.key != ConsoleKey.Escape);
+            } while (KeyInfo.Key != ConsoleKey.Escape);
 
         }
     }
