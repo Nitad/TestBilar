@@ -3,10 +3,10 @@
 
 public class Bilar
 {
-    public string Name { get; set; }
-    public int Wheels {get; set;}
-    public int Horsepower { get; set; }
-    public bool Broken { get; set; }
+    string Name { get; set; }
+    int Wheels {get; set;}
+    int Horsepower { get; set; }
+    int Broken { get; set; }
 
     public Bilar(string name, int wheels, int horsepower)
     {

@@ -9,7 +9,7 @@ namespace TestBilar
     class Program
     {
         static void Main(string[] args)
-        {
+        {while(0==0)
             var saab = new Bilar("Saab", 4, 90);
             var BMW = new Bilar("BMW", 4, 200);
 
