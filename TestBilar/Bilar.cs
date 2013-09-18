@@ -6,7 +6,7 @@ public class Bilar
     string Name { get; set; }
     int Wheels {get; set;}
     int Horsepower { get; set; }
-    int Broken { get; set; }
+    bool Broken { get; set; }
 
     public Bilar(string name, int wheels, int horsepower)
     {

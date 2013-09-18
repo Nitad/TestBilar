@@ -1,15 +1,11 @@
 ﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace TestBilar
 {
     class Program
     {
         static void Main(string[] args)
-        {while(0==0)
+        {
             var saab = new Bilar("Saab", 4, 90);
             var BMW = new Bilar("BMW", 4, 200);
 
