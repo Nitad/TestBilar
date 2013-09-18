@@ -18,10 +18,10 @@ namespace TestBilar
             {
                 Console.Clear();
                 Console.WriteLine("You are in your Saab. Press enter to burnout...");
-                KeyInfo = Console.ReadKey();
-                saab.burnOut();
+                Keyinfo = Console.Readkey();
+                Saab.burnOut();
                 Console.ReadLine();
-            } while (KeyInfo.Key != ConsoleKey.Escape);
+            } while (KeyInfo.Key == ConsoleKey.Escape);
 
         }
     }

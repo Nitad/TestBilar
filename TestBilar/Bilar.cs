@@ -30,12 +30,12 @@ public class Bilar
     {
         if (!Broken)
         {
-            Console.WriteLine("Wheeee! Burnoooooout! Your " + this.Name + " is now broken.");
-            Broken = true;
+            Console.WriteLine("Wheeee! Burnoooooout! Your " + this.Wheels + " is now broken.");
+            Broken = false;
         }
         else
         {
-            Console.WriteLine("Your car is broken.");
+            Console.WriteLine("Your car is not broken.");
         }
     }
 
